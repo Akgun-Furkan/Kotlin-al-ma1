@@ -53,6 +53,6 @@ class MainActivity : AppCompatActivity() {
         //this ve this@MainActivity ----> context için referans verme yolu ---<aktivitenin contexti
         Toast.makeText(this,("Hoşgeldin!!"),Toast.LENGTH_LONG).show()
 
-
     }
+
 }
