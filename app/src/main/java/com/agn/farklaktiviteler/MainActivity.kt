@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import com.agn.farklaktiviteler.databinding.ActivityMain2Binding
 import com.agn.farklaktiviteler.databinding.ActivityMainBinding
 
@@ -46,5 +47,12 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
 
     }
+    fun mesajBas(view:View){
+    //Toast ve Alert mesaj methodları
+        //applicationContext -> app context
+        //this ve this@MainActivity ----> context için referans verme yolu ---<aktivitenin contexti
+        Toast.makeText(this,("Hoşgeldin!!"),Toast.LENGTH_LONG).show()
 
+
+    }
 }
